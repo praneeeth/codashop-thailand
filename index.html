@@ -259,8 +259,8 @@
             document.getElementById("title").innerHTML = language == "th" ? "กรุณากรอกรายละเอียดต่อไปนี้เพื่อติดต่อคุณกับทีมสนับสนุนลูกค้าของเรา 😊" : "Please fill in the following details to connect you to our Customer Support team 😊"
             document.getElementById("name-header").innerHTML = language == "th" ? "ชื่อ" : "Name"
             document.getElementById("email-header").innerHTML = language == "th" ? "อีเมล" : "Email"
-            document.getElementById("payment-header").innerHTML = language == "th" ? "ช่องทางการชำระเงิน(ไม่จำเป็น)" : "Payment Channel(optional)"
-            document.getElementById("game-header").innerHTML = language == "th" ? "สินค้า/เกม(ไม่จำเป็น)" : "Product/Game(optional)"
+            document.getElementById("payment-header").innerHTML = language == "th" ? "ช่องทางการชำระเงิน" : "Payment Channel"
+            document.getElementById("game-header").innerHTML = language == "th" ? "สินค้า/เกม" : "Product/Game"
             document.getElementById("name").placeholder = language == "th" ? "กรุณากรอกชื่อของคุณ" : "Please enter your name"
             document.getElementById("email").placeholder = language == "th" ? "กรุณากรอกอีเมล์ของคุณ" : "Please enter your email"
             document.getElementById("product-option").innerHTML = language == "th" ? "กรุณาเลือกช่องทางการชำระเงินของคุณ" : "Please select your payment channel"
@@ -598,7 +598,7 @@
             <input type="email" placeholder="กรุณากรอกอีเมล์ของคุณ" class="input-field" id="email" name="email"
                 oninput="emailHandler()" required>
             <h6 id="payment-header">
-                ช่องทางการชำระเงิน(ไม่จำเป็น)<sup>*</sup>
+                ช่องทางการชำระเงิน<sup>*</sup>
             </h6>
             <select style="width: 96%;
         max-width: 96%;
@@ -611,7 +611,7 @@
         </select>
             <br>
             <h6 id="game-header">
-                สินค้า/เกม(ไม่จำเป็น)<sup>*</sup>
+                สินค้า/เกม<sup>*</sup>
             </h6>
             <select style="width: 96%;
         max-width: 96%;
